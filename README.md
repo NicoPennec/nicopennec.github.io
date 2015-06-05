@@ -1,4 +1,3 @@
-nicopennec.github.io
-====================
+Nicolas PENNEC Personal Website
 
-Nicolas PENNEC Personal Webpage
+http://pennec.io
