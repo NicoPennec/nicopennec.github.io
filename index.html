@@ -1,65 +1,120 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <title>Nicolas PENNEC - personal website</title>
-  <meta content="Nicolas PENNEC - personal website" name="description">
-  <link rel="stylesheet" href="css/main.css">
-</head>
-<body>
-  <header>
-    <h1>Nicolas PENNEC</h1>
-  </header>
-  <nav>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <!--<li><a href="#blog">Blog</a></li>-->
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#follow-me">Follow me</a></li>
-      <!--<li><a href="#contact">Contact</a></li>-->
-    </ul>
-  </nav>
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I'm a Full-Stack Web Developer at <a href="http://niji.fr/">Niji</a></p>
-    <p>Founder of <a href="http://rennesjs.org">RennesJS</a></p>
-    <p>From Rennes, France</p>
-    <p><img class="avatar" src="https://fr.gravatar.com/userimage/84911487/bce48d9d55e444397c2aa41160c8c523.jpg?size=200" alt="Nicolas PENNEC"></p>
-  </section>
-  <section id="skills">
-    <h2>My Skills</h2>
-    <ul>
-      <li>JavaScript (front-end / back-end)</li>
-      <li>HTML 5</li>
-      <li>CSS 3</li>
-      <li>JEE</li>
-      <li>PHP</li>
-      <li>SQL</li>
-      <li>GIS</li>
-    </ul>
-  </section>
-  <section id="follow-me">
-    <h2>Follow Me</h2>
-    <ul>
-      <li><a href="https://twitter.com/NicoPennec">Twitter</a></li>
-      <li><a href="https://www.facebook.com/nicolas.pennec">Facebook</a></li>
-      <li><a href="https://plus.google.com/+NicolasPennec">Google+</a></li>
-      <li><a href="https://www.linkedin.com/in/nicopennec">LinkedIn</a></li>
-      <li><a href="http://www.slideshare.net/NicoPennec">SlideShare</a></li>
-      <li><a href="https://github.com/NicoPennec">GitHub</a></li>
-      <li><a href="http://stackoverflow.com/users/4328275/nicopennec">StackOverflow</a></li>
-      <li><a href="https://careers.stackoverflow.com/nicopennec">StackOverflowCareers</a></li>
-    </ul>
-  </section>
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-63811497-1', 'auto');
-    ga('send', 'pageview');
-  </script>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible"content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta content="Nicolas PENNEC - personal website" name="description">
+    <title>Nicolas PENNEC - Full-Stack Web Developer</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="vendor/material-design-lite/material.min.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body class="mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+      <header class="mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+          <!-- Title -->
+          <h1 class="mdl-layout-title">Nicolas PENNEC</h1>
+          <!-- Add spacer, to align navigation to the right -->
+          <div class="mdl-layout-spacer"></div>
+          <!-- Navigation -->
+          <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" href="#about">About</a>
+            <!--<a class="mdl-navigation__link" href="#blog">Blog</a>-->
+            <a class="mdl-navigation__link" href="#skills">Skills</a>
+            <a class="mdl-navigation__link" href="#follow-me">Follow Me</a>
+            <!--<a class="mdl-navigation__link" href="#contact">Contact</a>-->
+          </nav>
+        </div>
+      </header>
+
+      <!-- Navigation -->
+      <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Nicolas PENNEC</span>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="#about">About</a>
+          <!--<a class="mdl-navigation__link" href="#blog">Blog</a>-->
+          <a class="mdl-navigation__link" href="#skills">Skills</a>
+          <a class="mdl-navigation__link" href="#follow-me">Follow Me</a>
+          <!--<a class="mdl-navigation__link" href="#contact">Contact</a>-->
+        </nav>
+      </div>
+
+      <main class="mdl-layout__content">
+        <div class="page-content">
+          
+          <section id="about" class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text">
+                <h4>About Me</h4>
+                <p>
+                  I'm a Full-Stack Web Developer at <a href="http://niji.fr/">Niji</a><br>
+                  Founder of <a href="http://rennesjs.org">RennesJS</a><br>
+                  From Rennes, France
+                </p>
+                <p>
+                  <img class="avatar" src="https://fr.gravatar.com/userimage/84911487/bce48d9d55e444397c2aa41160c8c523.jpg?size=200" alt="Nicolas PENNEC">
+                </p>
+              </div>
+              <!--
+              <div class="mdl-card__actions">
+                <a href="#" class="mdl-button">Read our features</a>
+              </div>
+              -->
+            </div>
+          </section>
+
+          <section id="skills" class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text">
+                <h4>My Skills</h4>
+                <ul>
+                  <li>JavaScript (front-end / back-end)</li>
+                  <li>HTML 5</li>
+                  <li>CSS 3</li>
+                  <li>JEE</li>
+                  <li>PHP</li>
+                  <li>SQL</li>
+                  <li>SEO</li>
+                  <li>GIS</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <section id="follow-me" class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text">
+                <h4>Follow Me</h4>
+                <ul>
+                  <li><a href="https://twitter.com/NicoPennec">Twitter</a></li>
+                  <li><a href="https://www.facebook.com/nicolas.pennec">Facebook</a></li>
+                  <li><a href="https://plus.google.com/+NicolasPennec">Google+</a></li>
+                  <li><a href="https://www.linkedin.com/in/nicopennec">LinkedIn</a></li>
+                  <li><a href="http://www.slideshare.net/NicoPennec">SlideShare</a></li>
+                  <li><a href="https://github.com/NicoPennec">GitHub</a></li>
+                  <li><a href="http://stackoverflow.com/users/4328275/nicopennec">StackOverflow</a></li>
+                  <li><a href="https://careers.stackoverflow.com/nicopennec">StackOverflowCareers</a></li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+        </div>
+      </main>
+
+    </div>
+
+    <script src="vendor/material-design-lite/material.min.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-63811497-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </body>
 </html>
