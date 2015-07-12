@@ -71,6 +71,11 @@ h4 {
   margin-top: 16px;
   border-bottom: 1px solid #ddd;
 }
+h4 .material-icons {
+  margin-right: 8px;
+  font-size: 2rem;
+  vertical-align: text-bottom;
+}
 .avatar {
   /*border: 2px solid #C1856D;
   border: 1px solid #180F24;
