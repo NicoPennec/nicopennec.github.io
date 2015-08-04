@@ -41,3 +41,6 @@ h4 .material-icons {
 .avatar {
   border-radius: 50%;
 }
+.talks__list > li + li {
+  padding-top: 1rem;
+}
