@@ -44,3 +44,20 @@ h4 .material-icons {
 .talks__list > li + li {
   padding-top: 1rem;
 }
+.material-icons {
+  display: inline-block;
+  width: 28px;
+}
+/*https://github.com/google/material-design-icons/blob/master/iconfont/codepoints*/
+.mdi--loaded .mdi-account-circle:before {
+  content: "\e853";
+}
+.mdi--loaded .mdi-code:before {
+  content: "\e86f";
+}
+.mdi--loaded .mdi-forum:before {
+  content: "\e0bf";
+}
+.mdi--loaded .mdi-people:before {
+  content: "\e7fb";
+}
