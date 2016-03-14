@@ -4,6 +4,11 @@ img {
 a {
   color: #C1856D;
 }
+.material-icons {
+  display: inline-block;
+  width: 28px;
+  vertical-align: inherit;
+}
 .page-content {
   padding: 8px;
   padding-top: 48px;
@@ -38,15 +43,64 @@ h4 .material-icons {
   font-size: 2rem;
   vertical-align: text-bottom;
 }
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1.5rem;
+}
+h2 {
+  font-size: 1.25rem;
+  line-height: 1.2;
+  margin: 0;
+}
+h2 + h2 {
+  margin-top: 8px;
+}
+.resume {
+  font-size: 1.1rem;
+  margin: 32px auto;
+  max-width: 620px;
+}
+.about {
+  margin-top: 32px;
+}
+.about .mdl-card {
+  padding-top: 96px;
+  padding-bottom: 32px;
+  text-align: center;
+}
 .avatar {
+  position: absolute;
+  z-index: 2;
+  top: 16px;
+  left: 50%;
+  transform: translate(-50%, -50%);
   border-radius: 50%;
+}
+.mdl-button--raised.mdl-button--colored {
+  background: #180F24;
+  color: #fff;
+  padding: 0 32px;
+}
+.mdl-button--raised.mdl-button--colored:active,
+.mdl-button--raised.mdl-button--colored:focus,
+.mdl-button--raised.mdl-button--colored:hover {
+  /* background: #301E48; */
+  background: #C1856D;
+}
+.mdl-button--raised.mdl-button--colored i {
+  margin-left: .5rem;
 }
 .talks__list > li + li {
   padding-top: 1rem;
 }
-.material-icons {
-  display: inline-block;
-  width: 28px;
+.social {
+  -moz-column-count: 4;
+  -moz-column-gap: 40px;
+  -webkit-column-count: 4;
+  -webkit-column-gap: 40px;
+  column-count: 4;
+  column-gap: 40px;
 }
 /*https://github.com/google/material-design-icons/blob/master/iconfont/codepoints*/
 .mdi--loaded .mdi-account-circle:before {
@@ -55,9 +109,18 @@ h4 .material-icons {
 .mdi--loaded .mdi-code:before {
   content: "\e86f";
 }
+.mdi--loaded .mdi-file-download:before {
+  content: "\e2c4";
+}
 .mdi--loaded .mdi-forum:before {
   content: "\e0bf";
 }
 .mdi--loaded .mdi-people:before {
   content: "\e7fb";
+}
+.mdi--loaded .mdi-picture-as-pdf:before {
+  content: "\e415";
+}
+.mdi--loaded .mdi-thumb-up:before {
+  content: "\e8dc";
 }
