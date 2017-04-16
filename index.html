@@ -199,9 +199,12 @@
 
     </div>
 
+    <script src="vendor/raven/3.14.1/raven.min.js"></script>
     <script src="vendor/material-design-lite/material.min.js"></script>
     <script src="vendor/loadcss/0.1.7/loadCSS.min.js"></script>
     <script>
+      Raven.config('https://cdf67a30b325483893c7d843765a6cf2@sentry.io/158789').install();
+
       var ss=loadCSS('https://fonts.googleapis.com/icon?family=Material+Icons');
       onloadCSS(ss,function(){document.body.classList.add('mdi--loaded');});
     </script>
