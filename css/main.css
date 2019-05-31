@@ -91,6 +91,11 @@ h2 + h2 {
 .mdl-button--raised.mdl-button--colored i {
   margin-left: .5rem;
 }
+.open-source-projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 .talks__list > li + li {
   padding-top: 1rem;
 }
@@ -102,12 +107,15 @@ h2 + h2 {
   column-count: 4;
   column-gap: 40px;
 }
-/*https://github.com/google/material-design-icons/blob/master/iconfont/codepoints*/
+/* see https://github.com/google/material-design-icons/blob/master/iconfont/codepoints */
 .mdi--loaded .mdi-account-circle:before {
   content: "\e853";
 }
 .mdi--loaded .mdi-code:before {
   content: "\e86f";
+}
+.mdi--loaded .mdi-extension:before {
+  content: "\e87b";
 }
 .mdi--loaded .mdi-file-download:before {
   content: "\e2c4";
