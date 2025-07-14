@@ -57,9 +57,11 @@ h2 + h2 {
   margin-top: 8px;
 }
 .resume {
-  font-size: 1.1rem;
   margin: 32px auto;
-  max-width: 660px;
+}
+.resume p {
+  font-size: 1.1rem;
+  margin: 0 0 8px;
 }
 .about {
   margin-top: 32px;
